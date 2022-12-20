@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Response;
 class MailController extends Controller
 {
     public function sendEmail(){
-        $email ='np03cs4s210141@heraldcollege.edu.np';
+        $email ="'np03cs4s210141@heraldcollege.edu.np";
         $mailData =[
             'title'=>'try email',
             'url'=>'https://www.positronx.io'
